@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="d-flex p-3 bg-primary text-white">User Management App</div>
+    <div class="container-fluid">
+        <h2 class="text-center"> Users List </h2>
+        <button type="button" class="btn btn-primary" style="margin-left: 60px;">Add User</button>
+        <div class="container-sm">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">User First Name</th>
+                            <th scope="col">User Last Name</th>
+                            <th scope="col">User Email Id</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-secondary">
+                            <td>Ajay</td>
+                            <td>Deno</td>
+                            <td>email id</td>
+                            <td>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                    <button type="button" class="btn btn-info me-md-2">View</button>
+                                    <button type="button" class="btn btn-danger me-md-2">Delete</button>
+                                    <button type="button" class="btn btn-info">Update</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
